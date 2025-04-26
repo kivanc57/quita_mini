@@ -7,14 +7,14 @@ import (
 	"github.com/aaaton/golem/v4/dicts/en"
 )
 
-func GetFreqMap(corpus string, lemmatize bool) map[string]int {
+func GetFreqMap(content string, lemmatize bool) map[string]int {
 	freqMap := make(map[string]int)
 
 	lemmatizer, _ := golem.New(en.New())
 	re := regexp.MustCompile(`[^a-z]+`)
 
 
-	tokens := strings.Fields(corpus)
+	tokens := strings.Fields(content)
 	for _, token := range tokens {
 		// lowercase + replace non-letter
 		token = strings.ToLower(token)
