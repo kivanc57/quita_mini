@@ -1,7 +1,7 @@
 
-# Quita Mini
+# QUITA Mini
 
-Quita Mini is a text analysis tool that calculates various linguistic metrics from text data. It processes a collection of text files, calculates metrics like Type-Token Ratio (TTR), entropy, average token lengths, hapax legomena percentages, and other related linguistic statistics, and outputs the results in an Excel file.
+QUITA Mini is a text analysis tool that calculates various linguistic metrics from text data. It processes a collection of text files, calculates metrics like Type-Token Ratio (TTR), entropy, average token lengths, hapax legomena percentages, and other related linguistic statistics, and outputs the results in an Excel file.
 
 ## Features
 
