@@ -1,0 +1,8 @@
+services:
+  quita_mini:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: quita_mini
+    restart: unless-stopped
+
